@@ -1,0 +1,21 @@
+student_id,name,email,phone,gender,course,year,family_income,distance_from_college,address,emergency_contact
+S001,Ananya Sharma,s001@college.edu,+91-9000000001,Female,Electronics,Second Year,24144,99,"11, Student Colony, Education City, PIN-400002",+91-8000000001
+S002,Ananya Aggarwal,s002@college.edu,+91-9000000002,Male,IT,Fourth Year,17082,8,"12, Student Colony, Education City, PIN-400003",+91-8000000002
+S003,Rahul Verma,s003@college.edu,+91-9000000003,Male,IT,First Year,51781,30,"13, Student Colony, Education City, PIN-400004",+91-8000000003
+S004,Gayatri Malhotra,s004@college.edu,+91-9000000004,Male,Civil,Third Year,68046,116,"14, Student Colony, Education City, PIN-400005",+91-8000000004
+S005,Arjun Agarwal,s005@college.edu,+91-9000000005,Female,Mechanical,Third Year,25189,32,"15, Student Colony, Education City, PIN-400006",+91-8000000005
+S006,Karthik Singh,s006@college.edu,+91-9000000006,Male,Civil,First Year,38526,113,"16, Student Colony, Education City, PIN-400007",+91-8000000006
+S007,Nisha Tiwari,s007@college.edu,+91-9000000007,Female,Computer Science,Fourth Year,50142,20,"17, Student Colony, Education City, PIN-400008",+91-8000000007
+S008,Siddharth Kumar,s008@college.edu,+91-9000000008,Female,IT,Third Year,52837,29,"18, Student Colony, Education City, PIN-400009",+91-8000000008
+S009,Rahul Patel,s009@college.edu,+91-9000000009,Male,Mechanical,First Year,71054,34,"19, Student Colony, Education City, PIN-400010",+91-8000000009
+S010,Ananya Kapoor,s010@college.edu,+91-9000000010,Female,Civil,Third Year,25659,52,"20, Student Colony, Education City, PIN-400011",+91-8000000010
+S011,Nisha Verma,s011@college.edu,+91-9000000011,Female,Computer Science,Second Year,50005,98,"21, Student Colony, Education City, PIN-400012",+91-8000000011
+S012,Kavya Agarwal,s012@college.edu,+91-9000000012,Female,Civil,Third Year,79849,86,"22, Student Colony, Education City, PIN-400013",+91-8000000012
+S013,Gayatri Reddy,s013@college.edu,+91-9000000013,Female,Computer Science,Second Year,68857,9,"23, Student Colony, Education City, PIN-400014",+91-8000000013
+S014,Karthik Kapoor,s014@college.edu,+91-9000000014,Female,Computer Science,Second Year,74843,77,"24, Student Colony, Education City, PIN-400015",+91-8000000014
+S015,Karthik Verma,s015@college.edu,+91-9000000015,Female,Civil,Fourth Year,24363,38,"25, Student Colony, Education City, PIN-400016",+91-8000000015
+S016,Vikram Reddy,s016@college.edu,+91-9000000016,Female,IT,Fourth Year,73839,79,"26, Student Colony, Education City, PIN-400017",+91-8000000016
+S017,Siddharth Chopra,s017@college.edu,+91-9000000017,Male,Electronics,Fourth Year,20957,101,"27, Student Colony, Education City, PIN-400018",+91-8000000017
+S018,Priya Singh,s018@college.edu,+91-9000000018,Male,Electronics,Fourth Year,54086,13,"28, Student Colony, Education City, PIN-400019",+91-8000000018
+S019,Siddharth Kapoor,s019@college.edu,+91-9000000019,Female,IT,Third Year,78640,75,"29, Student Colony, Education City, PIN-400020",+91-8000000019
+S020,Arjun Singh,s020@college.edu,+91-9000000020,Female,Mechanical,First Year,34234,60,"30, Student Colony, Education City, PIN-400021",+91-8000000020

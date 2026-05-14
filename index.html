@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓 EduTrack: Intelligent Student Success Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Homepage - Exact Structure -->
+    <div id="home-page" class="page active">
+        <nav class="home-nav">
+            <div class="nav-brand">
+                <span>🎓 EduTrack</span>
+            </div>
+            <div class="nav-actions">
+                <button class="btn btn--outline" id="student-login-btn">
+                    <i class="fas fa-user-graduate"></i> Student Login
+                </button>
+                <button class="btn btn--primary" id="faculty-login-btn">
+                    <i class="fas fa-chalkboard-teacher"></i> Faculty Login
+                </button>
+            </div>
+        </nav>
+
+        <div class="hero-section">
+            <div class="hero-content">
+                <div class="hero-main">
+                    <div class="hero-text">
+                        <h1 class="hero-title">EduTrack: Intelligent Student Success Platform</h1>
+                        <p class="hero-description">
+                            Harness the power of AI to prevent student dropout and ensure academic success.
+                            Our intelligent platform provides real-time interventions, personalized counseling,
+                            and comprehensive analytics to support every student's journey to success.
+                        </p>
+                        
+                        <div class="hero-features">
+                            <div class="feature-card">
+                                <i class="fas fa-brain"></i>
+                                <h3>🧠 AI-Powered Risk Assessment</h3>
+                                <p>Advanced algorithms identify at-risk students before it's too late with comprehensive data analysis</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-chart-line"></i>
+                                <h3>📊 Comprehensive Analytics</h3>
+                                <p>Make informed decisions with detailed analytics, performance tracking, and predictive insights</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-comments"></i>
+                                <h3>💬 Real-time Counseling</h3>
+                                <p>Instant personalized counseling messages and intervention strategies for each student</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-bullseye"></i>
+                                <h3>🎯 Personalized Interventions</h3>
+                                <p>Tailored support strategies based on individual student needs and risk factors</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-cta">
+                            <button class="btn btn--primary btn--lg" id="get-started-btn">
+                                <i class="fas fa-rocket"></i> 🚀 Get Started
+                            </button>
+                            <button class="btn btn--outline btn--lg" id="learn-more-btn">
+                                <i class="fas fa-info-circle"></i> ℹ️ Learn More
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-sidebar">
+                        <div class="sidebar-card risk-alert">
+                            <div class="card-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <h3>Risk Alert</h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="stat-number">12</div>
+                                <p>High-risk students identified</p>
+                                <button class="card-action">View Details</button>
+                            </div>
+                        </div>
+                        
+                        <div class="sidebar-card analytics">
+                            <div class="card-header">
+                                <i class="fas fa-chart-bar"></i>
+                                <h3>Analytics</h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="stat-number">87%</div>
+                                <p>Success rate improvement</p>
+                                <button class="card-action">View Analytics</button>
+                            </div>
+                        </div>
+                        
+                        <div class="sidebar-card support">
+                            <div class="card-header">
+                                <i class="fas fa-headset"></i>
+                                <h3>Support</h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="stat-number">24/7</div>
+                                <p>Academic counseling available</p>
+                                <button class="card-action">Get Support</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Student Dashboard -->
+    <div id="student-dashboard" class="page">
+        <div class="dashboard-layout">
+            <aside class="dashboard-sidebar">
+                <div class="sidebar-header">
+                    <span class="brand-text">🎓 EduTrack</span>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-link active" data-page="student-overview">
+                        <span class="nav-icon"><i class="fas fa-tachometer-alt"></i></span>
+                        My Dashboard
+                    </a>
+                    <a href="#" class="nav-link" data-page="student-profile">
+                        <span class="nav-icon"><i class="fas fa-user"></i></span>
+                        My Profile
+                    </a>
+                    <a href="#" class="nav-link" data-page="student-grades">
+                        <span class="nav-icon"><i class="fas fa-chart-bar"></i></span>
+                        My Grades
+                    </a>
+                    <a href="#" class="nav-link" data-page="student-attendance">
+                        <span class="nav-icon"><i class="fas fa-calendar-check"></i></span>
+                        My Attendance
+                    </a>
+                    <a href="#" class="nav-link" data-page="student-counseling">
+                        <span class="nav-icon"><i class="fas fa-comments"></i></span>
+                        Counseling Messages
+                    </a>
+                    <a href="#" class="nav-link logout-link" onclick="logout()">
+                        <span class="nav-icon"><i class="fas fa-sign-out-alt"></i></span>
+                        Logout
+                    </a>
+                </nav>
+            </aside>
+
+            <main class="dashboard-main">
+                <!-- Student Overview -->
+                <div id="student-overview" class="dashboard-page active">
+                    <div class="page-header">
+                        <h1>My Dashboard</h1>
+                        <p id="student-welcome">Welcome to your personal academic dashboard</p>
+                    </div>
+                    
+                    <div class="student-kpi-grid">
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3>Current CGPA</h3>
+                            <div class="kpi-value" id="student-cgpa">0.0</div>
+                            <p>Your overall grade point average</p>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <h3>Attendance</h3>
+                            <div class="kpi-value" id="student-attendance">0%</div>
+                            <p>Your overall attendance percentage</p>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <h3>Risk Level</h3>
+                            <div class="kpi-value" id="student-risk">Low</div>
+                            <p>Your academic risk assessment</p>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-rupee-sign"></i></div>
+                            <h3>Fee Status</h3>
+                            <div class="kpi-value" id="student-fees">Paid</div>
+                            <p>Your current fee payment status</p>
+                        </div>
+                    </div>
+
+                    <div class="charts-section">
+                        <div class="chart-card" style="position: relative; height: 300px;">
+                            <h3>My Performance Trend</h3>
+                            <canvas id="studentPerformanceChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Profile -->
+                <div id="student-profile" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>My Profile</h1>
+                        <p>Your personal information and academic details</p>
+                    </div>
+                    
+                    <div class="profile-card">
+                        <div id="student-profile-details">
+                            <!-- Profile details will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Grades -->
+                <div id="student-grades" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>My Grades</h1>
+                        <p>Your academic performance and grade history</p>
+                    </div>
+                    
+                    <div class="grades-section">
+                        <div id="student-grades-content">
+                            <!-- Grades will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Attendance -->
+                <div id="student-attendance" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>My Attendance</h1>
+                        <p>Your attendance records and statistics</p>
+                    </div>
+                    
+                    <div class="attendance-section">
+                        <div id="student-attendance-content">
+                            <!-- Attendance will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Counseling -->
+                <div id="student-counseling" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>Counseling Messages</h1>
+                        <p>Personalized guidance and support messages</p>
+                    </div>
+                    
+                    <div class="counseling-section">
+                        <div id="student-counseling-messages">
+                            <!-- Counseling messages will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Faculty Dashboard -->
+    <div id="faculty-dashboard" class="page">
+        <div class="dashboard-layout">
+            <aside class="dashboard-sidebar">
+                <div class="sidebar-header">
+                    <span class="brand-text">🎓 EduTrack</span>
+                </div>
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-link active" data-page="faculty-overview">
+                        <span class="nav-icon"><i class="fas fa-tachometer-alt"></i></span>
+                        Overview
+                    </a>
+                    <a href="#" class="nav-link" data-page="students">
+                        <span class="nav-icon"><i class="fas fa-users"></i></span>
+                        Students
+                    </a>
+                    <a href="#" class="nav-link" data-page="upload">
+                        <span class="nav-icon"><i class="fas fa-upload"></i></span>
+                        Data Upload
+                    </a>
+                    <a href="#" class="nav-link" data-page="credentials">
+                        <span class="nav-icon"><i class="fas fa-key"></i></span>
+                        Credentials
+                    </a>
+                    <a href="#" class="nav-link" data-page="analytics">
+                        <span class="nav-icon"><i class="fas fa-chart-bar"></i></span>
+                        Analytics
+                    </a>
+                    <a href="#" class="nav-link" data-page="alerts">
+                        <span class="nav-icon"><i class="fas fa-bell"></i></span>
+                        Alerts
+                    </a>
+                    <a href="#" class="nav-link logout-link" onclick="logout()">
+                        <span class="nav-icon"><i class="fas fa-sign-out-alt"></i></span>
+                        Logout
+                    </a>
+                </nav>
+            </aside>
+
+            <main class="dashboard-main">
+                <!-- Faculty Overview -->
+                <div id="faculty-overview" class="dashboard-page active">
+                    <div class="page-header">
+                        <h1>Faculty Dashboard</h1>
+                        <p>Comprehensive student management and analytics</p>
+                    </div>
+                    
+                    <div class="kpi-grid">
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-users"></i></div>
+                            <h3>Total Students</h3>
+                            <div class="kpi-value" id="total-students">0</div>
+                            <p>Active students with credentials</p>
+                        </div>
+                        <div class="kpi-card high-risk">
+                            <div class="kpi-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <h3>High Risk</h3>
+                            <div class="kpi-value" id="high-risk-count">0</div>
+                            <p>Students requiring intervention</p>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-key"></i></div>
+                            <h3>Active Credentials</h3>
+                            <div class="kpi-value" id="active-credentials">0</div>
+                            <p>Generated login accounts</p>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-icon"><i class="fas fa-database"></i></div>
+                            <h3>Data Sets</h3>
+                            <div class="kpi-value" id="total-datasets">0</div>
+                            <p>Uploaded spreadsheets</p>
+                        </div>
+                    </div>
+
+                    <div class="charts-section">
+                        <div class="chart-card" style="position: relative; height: 400px;">
+                            <h3>Risk Distribution</h3>
+                            <canvas id="riskChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Students Page -->
+                <div id="students" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>Student Management</h1>
+                        <div class="page-actions">
+                            <button class="btn btn--primary" onclick="showAddStudentModal()">
+                                <i class="fas fa-plus"></i> Add Student
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="students-table-wrapper">
+                        <table class="students-table">
+                            <thead>
+                                <tr>
+                                    <th>Student ID</th>
+                                    <th>Name</th>
+                                    <th>Course</th>
+                                    <th>Year</th>
+                                    <th>CGPA</th>
+                                    <th>Risk Level</th>
+                                    <th>Parent Contact</th>
+                                    <th>Credentials</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="students-table-body">
+                                <!-- Students will be populated here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Upload Page -->
+                <div id="upload" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>Data Upload</h1>
+                        <p>Upload spreadsheets with comprehensive null value handling</p>
+                    </div>
+                    
+                    <div class="upload-section">
+                        <div class="upload-types">
+                            <div class="upload-type-card" data-type="students">
+                                <h3><i class="fas fa-users"></i> Student Details</h3>
+                                <p>Upload student information with parent contact details</p>
+                                <div class="upload-area" data-type="students">
+                                    <i class="fas fa-file-csv"></i>
+                                    <p>Drag CSV here or click to browse</p>
+                                    <input type="file" accept=".csv" multiple hidden>
+                                </div>
+                            </div>
+                            
+                            <div class="upload-type-card" data-type="attendance">
+                                <h3><i class="fas fa-calendar-check"></i> Attendance Records</h3>
+                                <p>Upload daily attendance data for risk assessment</p>
+                                <div class="upload-area" data-type="attendance">
+                                    <i class="fas fa-file-csv"></i>
+                                    <p>Drag CSV here or click to browse</p>
+                                    <input type="file" accept=".csv" multiple hidden>
+                                </div>
+                            </div>
+                            
+                            <div class="upload-type-card" data-type="grades">
+                                <h3><i class="fas fa-chart-bar"></i> Grade Records</h3>
+                                <p>Upload academic performance and CGPA data</p>
+                                <div class="upload-area" data-type="grades">
+                                    <i class="fas fa-file-csv"></i>
+                                    <p>Drag CSV here or click to browse</p>
+                                    <input type="file" accept=".csv" multiple hidden>
+                                </div>
+                            </div>
+                            
+                            <div class="upload-type-card" data-type="fees">
+                                <h3><i class="fas fa-rupee-sign"></i> Fee Information</h3>
+                                <p>Upload financial records and payment status</p>
+                                <div class="upload-area" data-type="fees">
+                                    <i class="fas fa-file-csv"></i>
+                                    <p>Drag CSV here or click to browse</p>
+                                    <input type="file" accept=".csv" multiple hidden>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="upload-progress" class="upload-progress hidden">
+                            <h3>Processing Files...</h3>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill"></div>
+                            </div>
+                            <p id="progress-text">Preparing upload...</p>
+                        </div>
+
+                        <div id="upload-results" class="upload-results hidden">
+                            <h3>Upload Results</h3>
+                            <div id="results-content"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Credentials Page -->
+                <div id="credentials" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>Student Credentials</h1>
+                        <p>Auto-generated login credentials for all students</p>
+                    </div>
+                    
+                    <div class="credentials-grid" id="credentials-grid">
+                        <!-- Credentials will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Analytics Page -->
+                <div id="analytics" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>Analytics Dashboard</h1>
+                        <p>Comprehensive insights and performance metrics</p>
+                    </div>
+                    
+                    <div class="analytics-grid">
+                        <div class="chart-card" style="position: relative; height: 400px;">
+                            <h3>Grade Distribution</h3>
+                            <canvas id="gradeChart"></canvas>
+                        </div>
+                        <div class="chart-card" style="position: relative; height: 400px;">
+                            <h3>Attendance Trends</h3>
+                            <canvas id="attendanceChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alerts Page -->
+                <div id="alerts" class="dashboard-page">
+                    <div class="page-header">
+                        <h1>Parent Alert System</h1>
+                        <p>Send alerts to parents of at-risk students with acknowledgment tracking</p>
+                    </div>
+                    
+                    <div class="alerts-section">
+                        <div class="alert-actions">
+                            <button class="btn btn--primary" onclick="generateParentAlerts()">
+                                <i class="fas fa-paper-plane"></i> Send Risk Alerts to Parents
+                            </button>
+                        </div>
+                        <div id="alert-log" class="alert-log">
+                            <h3>Alert History & Acknowledgments</h3>
+                            <div id="alert-history">
+                                <!-- Alert history will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="login-title">Login to EduTrack</h2>
+                <button class="modal-close" onclick="hideModal('login-modal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" required>
+                </div>
+                <input type="hidden" id="login-type" value="faculty">
+                <div class="form-actions">
+                    <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                </div>
+            </form>
+            <div class="login-help">
+                <h4>Test Credentials:</h4>
+                <div class="credential-examples">
+                    <div id="student-examples" class="hidden">
+                        <p><strong>Students:</strong></p>
+                        <p>student001 / student001</p>
+                        <p>student002 / student002</p>
+                        <p>...up to student050</p>
+                    </div>
+                    <div id="faculty-examples">
+                        <p><strong>Faculty:</strong></p>
+                        <p>faculty001 / faculty001</p>
+                        <p>faculty002 / faculty002</p>
+                        <p>...up to faculty015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Student Modal -->
+    <div id="add-student-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Student</h2>
+                <button class="modal-close" onclick="hideModal('add-student-modal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="add-student-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-name">Full Name</label>
+                        <input type="text" id="student-name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-email">Email</label>
+                        <input type="email" id="student-email" name="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="parent-name">Parent/Guardian Name</label>
+                        <input type="text" id="parent-name" name="parent_name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="parent-phone">Parent Phone Number</label>
+                        <input type="tel" id="parent-phone" name="parent_phone" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-course">Course</label>
+                        <select id="student-course" name="course" class="form-control" required>
+                            <option value="">Select Course</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Business Administration">Business Administration</option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Medicine">Medicine</option>
+                            <option value="Arts">Arts</option>
+                            <option value="Science">Science</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-year">Year</label>
+                        <select id="student-year" name="year" class="form-control" required>
+                            <option value="">Select Year</option>
+                            <option value="1">Year 1</option>
+                            <option value="2">Year 2</option>
+                            <option value="3">Year 3</option>
+                            <option value="4">Year 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-cgpa">CGPA</label>
+                        <input type="number" id="student-cgpa" name="cgpa" class="form-control" min="0" max="10" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-attendance">Attendance %</label>
+                        <input type="number" id="student-attendance" name="attendance" class="form-control" min="0" max="100" required>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn--outline" onclick="hideModal('add-student-modal')">Cancel</button>
+                    <button type="submit" class="btn btn--primary">Add Student & Generate Credentials</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Student Detail Modal -->
+    <div id="student-detail-modal" class="modal hidden">
+        <div class="modal-content large-modal">
+            <div class="modal-header">
+                <h2 id="detail-modal-title">Student Details</h2>
+                <button class="modal-close" onclick="hideModal('student-detail-modal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="student-detail-content">
+                <!-- Student details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Student Modal -->
+    <div id="edit-student-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Student</h2>
+                <button class="modal-close" onclick="hideModal('edit-student-modal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="edit-student-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="edit-student-name">Full Name</label>
+                        <input type="text" id="edit-student-name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-student-email">Email</label>
+                        <input type="email" id="edit-student-email" name="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="edit-parent-name">Parent/Guardian Name</label>
+                        <input type="text" id="edit-parent-name" name="parent_name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-parent-phone">Parent Phone Number</label>
+                        <input type="tel" id="edit-parent-phone" name="parent_phone" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="edit-student-cgpa">CGPA</label>
+                        <input type="number" id="edit-student-cgpa" name="cgpa" class="form-control" min="0" max="10" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-student-attendance">Attendance %</label>
+                        <input type="number" id="edit-student-attendance" name="attendance" class="form-control" min="0" max="100" required>
+                    </div>
+                </div>
+                <input type="hidden" id="edit-student-id">
+                <div class="form-actions">
+                    <button type="button" class="btn btn--outline" onclick="hideModal('edit-student-modal')">Cancel</button>
+                    <button type="submit" class="btn btn--primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal hidden">
+        <div class="modal-content success-content">
+            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+            <h2 id="success-title">Success!</h2>
+            <p id="success-message"></p>
+            <div id="credentials-display" class="credentials-display hidden">
+                <h3>Generated Credentials</h3>
+                <div class="credential-item">
+                    <label>Student ID:</label>
+                    <span id="generated-id"></span>
+                </div>
+                <div class="credential-item">
+                    <label>Username:</label>
+                    <span id="generated-username"></span>
+                </div>
+                <div class="credential-item">
+                    <label>Password:</label>
+                    <span id="generated-password"></span>
+                </div>
+            </div>
+            <button class="btn btn--primary" onclick="hideModal('success-modal')">OK</button>
+        </div>
+    </div>
+
+    <!-- Alert Modal -->
+    <div id="alert-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Parent Alerts Sent</h2>
+                <button class="modal-close" onclick="hideModal('alert-modal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="alert-content">
+                <div class="alert-icon"><i class="fas fa-paper-plane"></i></div>
+                <div id="alert-message"></div>
+            </div>
+            <div class="form-actions">
+                <button class="btn btn--primary" onclick="hideModal('alert-modal')">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

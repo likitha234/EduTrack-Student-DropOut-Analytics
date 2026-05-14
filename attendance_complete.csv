@@ -1,0 +1,441 @@
+student_id,date,subject,status,hours_present
+S001,2025-09-01,Computer Science,Present,6
+S001,2025-09-02,Mathematics,Absent,6
+S001,2025-09-03,Physics,Present,0
+S001,2025-09-04,English,Present,0
+S001,2025-09-05,Physics,Present,0
+S001,2025-09-08,Mathematics,Present,6
+S001,2025-09-09,English,Present,6
+S001,2025-09-10,English,Absent,0
+S001,2025-09-11,English,Present,0
+S001,2025-09-12,English,Present,0
+S001,2025-09-15,Physics,Present,6
+S001,2025-09-16,Chemistry,Absent,6
+S001,2025-09-17,Mathematics,Absent,6
+S001,2025-09-18,Chemistry,Present,6
+S001,2025-09-19,Mathematics,Present,0
+S001,2025-09-22,Computer Science,Present,6
+S001,2025-09-23,Mathematics,Present,6
+S001,2025-09-24,Physics,Present,6
+S001,2025-09-25,Computer Science,Present,6
+S001,2025-09-26,Physics,Present,0
+S001,2025-09-29,Mathematics,Present,6
+S001,2025-09-30,Computer Science,Present,6
+S002,2025-09-01,Computer Science,Present,6
+S002,2025-09-02,English,Present,0
+S002,2025-09-03,Chemistry,Present,6
+S002,2025-09-04,Chemistry,Present,6
+S002,2025-09-05,Chemistry,Present,0
+S002,2025-09-08,Physics,Present,0
+S002,2025-09-09,English,Present,0
+S002,2025-09-10,Mathematics,Present,6
+S002,2025-09-11,English,Present,6
+S002,2025-09-12,Mathematics,Present,6
+S002,2025-09-15,Computer Science,Present,0
+S002,2025-09-16,Physics,Absent,0
+S002,2025-09-17,Mathematics,Absent,6
+S002,2025-09-18,Chemistry,Absent,0
+S002,2025-09-19,Physics,Present,0
+S002,2025-09-22,Computer Science,Present,0
+S002,2025-09-23,Computer Science,Present,6
+S002,2025-09-24,Computer Science,Present,0
+S002,2025-09-25,Mathematics,Present,6
+S002,2025-09-26,Chemistry,Present,6
+S002,2025-09-29,Mathematics,Present,6
+S002,2025-09-30,Chemistry,Absent,0
+S003,2025-09-01,Computer Science,Present,6
+S003,2025-09-02,Chemistry,Present,6
+S003,2025-09-03,Chemistry,Present,0
+S003,2025-09-04,Chemistry,Present,6
+S003,2025-09-05,Mathematics,Present,0
+S003,2025-09-08,Chemistry,Present,6
+S003,2025-09-09,Mathematics,Absent,0
+S003,2025-09-10,Physics,Present,0
+S003,2025-09-11,Physics,Absent,0
+S003,2025-09-12,Computer Science,Absent,0
+S003,2025-09-15,Computer Science,Present,6
+S003,2025-09-16,Mathematics,Absent,6
+S003,2025-09-17,Physics,Present,6
+S003,2025-09-18,Chemistry,Present,6
+S003,2025-09-19,English,Present,6
+S003,2025-09-22,Mathematics,Present,0
+S003,2025-09-23,Chemistry,Present,6
+S003,2025-09-24,Chemistry,Present,6
+S003,2025-09-25,Physics,Absent,6
+S003,2025-09-26,Chemistry,Present,0
+S003,2025-09-29,Computer Science,Present,6
+S003,2025-09-30,Physics,Present,6
+S004,2025-09-01,Physics,Present,0
+S004,2025-09-02,Mathematics,Absent,6
+S004,2025-09-03,Chemistry,Present,0
+S004,2025-09-04,Physics,Absent,0
+S004,2025-09-05,Physics,Present,6
+S004,2025-09-08,English,Present,6
+S004,2025-09-09,English,Present,6
+S004,2025-09-10,Physics,Absent,0
+S004,2025-09-11,Chemistry,Present,0
+S004,2025-09-12,Physics,Present,6
+S004,2025-09-15,Mathematics,Present,6
+S004,2025-09-16,English,Present,0
+S004,2025-09-17,Chemistry,Present,6
+S004,2025-09-18,Chemistry,Present,0
+S004,2025-09-19,Computer Science,Absent,0
+S004,2025-09-22,Computer Science,Present,0
+S004,2025-09-23,Mathematics,Present,6
+S004,2025-09-24,Chemistry,Present,6
+S004,2025-09-25,Computer Science,Present,0
+S004,2025-09-26,Mathematics,Present,6
+S004,2025-09-29,Computer Science,Present,0
+S004,2025-09-30,Chemistry,Present,0
+S005,2025-09-01,English,Absent,6
+S005,2025-09-02,English,Present,6
+S005,2025-09-03,Chemistry,Present,6
+S005,2025-09-04,English,Present,6
+S005,2025-09-05,Computer Science,Present,6
+S005,2025-09-08,Chemistry,Present,0
+S005,2025-09-09,Mathematics,Present,0
+S005,2025-09-10,Computer Science,Present,0
+S005,2025-09-11,Mathematics,Present,0
+S005,2025-09-12,Computer Science,Present,0
+S005,2025-09-15,English,Present,0
+S005,2025-09-16,English,Present,0
+S005,2025-09-17,Computer Science,Present,6
+S005,2025-09-18,Physics,Present,0
+S005,2025-09-19,English,Present,6
+S005,2025-09-22,Computer Science,Present,0
+S005,2025-09-23,English,Absent,6
+S005,2025-09-24,Chemistry,Present,0
+S005,2025-09-25,Physics,Present,0
+S005,2025-09-26,Computer Science,Present,0
+S005,2025-09-29,English,Present,0
+S005,2025-09-30,English,Present,6
+S006,2025-09-01,Computer Science,Present,0
+S006,2025-09-02,Physics,Present,6
+S006,2025-09-03,Chemistry,Absent,0
+S006,2025-09-04,Mathematics,Absent,6
+S006,2025-09-05,Chemistry,Present,6
+S006,2025-09-08,Physics,Absent,6
+S006,2025-09-09,Mathematics,Absent,6
+S006,2025-09-10,Physics,Present,0
+S006,2025-09-11,Computer Science,Absent,6
+S006,2025-09-12,English,Present,0
+S006,2025-09-15,Computer Science,Absent,6
+S006,2025-09-16,English,Absent,0
+S006,2025-09-17,English,Present,6
+S006,2025-09-18,Physics,Present,6
+S006,2025-09-19,Mathematics,Present,0
+S006,2025-09-22,Physics,Present,6
+S006,2025-09-23,Computer Science,Absent,0
+S006,2025-09-24,Mathematics,Absent,6
+S006,2025-09-25,Mathematics,Present,0
+S006,2025-09-26,Physics,Present,0
+S006,2025-09-29,Computer Science,Present,0
+S006,2025-09-30,English,Present,0
+S007,2025-09-01,Computer Science,Present,0
+S007,2025-09-02,Physics,Present,0
+S007,2025-09-03,English,Absent,0
+S007,2025-09-04,Physics,Present,0
+S007,2025-09-05,Computer Science,Present,0
+S007,2025-09-08,Physics,Present,0
+S007,2025-09-09,English,Present,6
+S007,2025-09-10,Chemistry,Absent,6
+S007,2025-09-11,Chemistry,Absent,0
+S007,2025-09-12,Chemistry,Present,6
+S007,2025-09-15,Physics,Present,6
+S007,2025-09-16,Physics,Present,0
+S007,2025-09-17,Physics,Present,6
+S007,2025-09-18,Mathematics,Present,0
+S007,2025-09-19,English,Present,0
+S007,2025-09-22,Computer Science,Present,0
+S007,2025-09-23,English,Present,6
+S007,2025-09-24,Physics,Present,0
+S007,2025-09-25,English,Absent,6
+S007,2025-09-26,Computer Science,Present,0
+S007,2025-09-29,English,Present,6
+S007,2025-09-30,Chemistry,Present,0
+S008,2025-09-01,English,Absent,0
+S008,2025-09-02,Computer Science,Present,6
+S008,2025-09-03,English,Present,6
+S008,2025-09-04,Chemistry,Present,0
+S008,2025-09-05,English,Present,6
+S008,2025-09-08,English,Present,0
+S008,2025-09-09,English,Present,6
+S008,2025-09-10,English,Present,6
+S008,2025-09-11,Computer Science,Present,6
+S008,2025-09-12,English,Present,6
+S008,2025-09-15,Mathematics,Present,0
+S008,2025-09-16,Physics,Absent,0
+S008,2025-09-17,Physics,Present,6
+S008,2025-09-18,Chemistry,Present,0
+S008,2025-09-19,Chemistry,Present,6
+S008,2025-09-22,English,Present,0
+S008,2025-09-23,Chemistry,Present,0
+S008,2025-09-24,Chemistry,Present,0
+S008,2025-09-25,Chemistry,Present,6
+S008,2025-09-26,English,Present,6
+S008,2025-09-29,Computer Science,Present,6
+S008,2025-09-30,Chemistry,Present,6
+S009,2025-09-01,Mathematics,Present,6
+S009,2025-09-02,Mathematics,Present,6
+S009,2025-09-03,Physics,Absent,6
+S009,2025-09-04,Computer Science,Present,6
+S009,2025-09-05,Physics,Present,6
+S009,2025-09-08,English,Present,6
+S009,2025-09-09,Computer Science,Absent,6
+S009,2025-09-10,English,Absent,0
+S009,2025-09-11,Chemistry,Present,6
+S009,2025-09-12,Computer Science,Present,6
+S009,2025-09-15,Physics,Absent,0
+S009,2025-09-16,Mathematics,Present,6
+S009,2025-09-17,Chemistry,Present,0
+S009,2025-09-18,English,Present,6
+S009,2025-09-19,Mathematics,Present,6
+S009,2025-09-22,Mathematics,Absent,0
+S009,2025-09-23,Computer Science,Absent,6
+S009,2025-09-24,Computer Science,Present,6
+S009,2025-09-25,Chemistry,Present,0
+S009,2025-09-26,Chemistry,Present,6
+S009,2025-09-29,Computer Science,Present,0
+S009,2025-09-30,Mathematics,Absent,0
+S010,2025-09-01,English,Absent,6
+S010,2025-09-02,English,Present,0
+S010,2025-09-03,English,Present,6
+S010,2025-09-04,English,Present,6
+S010,2025-09-05,Computer Science,Present,0
+S010,2025-09-08,Computer Science,Absent,0
+S010,2025-09-09,English,Present,0
+S010,2025-09-10,Computer Science,Present,0
+S010,2025-09-11,Chemistry,Present,6
+S010,2025-09-12,Mathematics,Present,0
+S010,2025-09-15,English,Present,6
+S010,2025-09-16,English,Present,0
+S010,2025-09-17,Chemistry,Present,6
+S010,2025-09-18,English,Present,0
+S010,2025-09-19,Physics,Present,0
+S010,2025-09-22,Physics,Present,0
+S010,2025-09-23,Chemistry,Present,0
+S010,2025-09-24,Chemistry,Present,0
+S010,2025-09-25,Computer Science,Present,6
+S010,2025-09-26,Computer Science,Present,6
+S010,2025-09-29,Mathematics,Present,6
+S010,2025-09-30,English,Absent,0
+S011,2025-09-01,Computer Science,Present,6
+S011,2025-09-02,English,Present,0
+S011,2025-09-03,English,Present,6
+S011,2025-09-04,Mathematics,Present,0
+S011,2025-09-05,Physics,Present,0
+S011,2025-09-08,Physics,Present,0
+S011,2025-09-09,Computer Science,Absent,0
+S011,2025-09-10,English,Present,0
+S011,2025-09-11,English,Absent,0
+S011,2025-09-12,Chemistry,Present,0
+S011,2025-09-15,Chemistry,Present,0
+S011,2025-09-16,Chemistry,Present,6
+S011,2025-09-17,Mathematics,Present,6
+S011,2025-09-18,Chemistry,Present,6
+S011,2025-09-19,Computer Science,Present,6
+S011,2025-09-22,Physics,Present,6
+S011,2025-09-23,English,Present,0
+S011,2025-09-24,Computer Science,Present,0
+S011,2025-09-25,Mathematics,Present,6
+S011,2025-09-26,Chemistry,Present,6
+S011,2025-09-29,Chemistry,Absent,6
+S011,2025-09-30,Chemistry,Absent,6
+S012,2025-09-01,Computer Science,Absent,6
+S012,2025-09-02,Chemistry,Present,6
+S012,2025-09-03,Mathematics,Present,0
+S012,2025-09-04,Physics,Absent,0
+S012,2025-09-05,Mathematics,Present,6
+S012,2025-09-08,Computer Science,Absent,0
+S012,2025-09-09,English,Absent,0
+S012,2025-09-10,English,Absent,0
+S012,2025-09-11,Physics,Present,6
+S012,2025-09-12,Chemistry,Present,0
+S012,2025-09-15,Mathematics,Absent,6
+S012,2025-09-16,English,Present,0
+S012,2025-09-17,Mathematics,Present,6
+S012,2025-09-18,Physics,Present,6
+S012,2025-09-19,Computer Science,Absent,0
+S012,2025-09-22,Mathematics,Present,6
+S012,2025-09-23,Mathematics,Present,0
+S012,2025-09-24,Computer Science,Present,6
+S012,2025-09-25,Computer Science,Present,0
+S012,2025-09-26,English,Absent,0
+S012,2025-09-29,Chemistry,Present,0
+S012,2025-09-30,Chemistry,Present,6
+S013,2025-09-01,Computer Science,Absent,6
+S013,2025-09-02,Physics,Present,6
+S013,2025-09-03,Chemistry,Present,6
+S013,2025-09-04,Physics,Present,6
+S013,2025-09-05,Physics,Present,6
+S013,2025-09-08,Physics,Present,6
+S013,2025-09-09,English,Absent,0
+S013,2025-09-10,Computer Science,Absent,0
+S013,2025-09-11,Chemistry,Absent,6
+S013,2025-09-12,Physics,Absent,0
+S013,2025-09-15,Chemistry,Present,0
+S013,2025-09-16,Mathematics,Present,6
+S013,2025-09-17,Chemistry,Present,6
+S013,2025-09-18,English,Present,6
+S013,2025-09-19,Computer Science,Present,6
+S013,2025-09-22,Physics,Present,0
+S013,2025-09-23,Physics,Absent,6
+S013,2025-09-24,Mathematics,Present,6
+S013,2025-09-25,Chemistry,Present,0
+S013,2025-09-26,English,Present,6
+S013,2025-09-29,English,Present,0
+S013,2025-09-30,English,Present,0
+S014,2025-09-01,Computer Science,Present,0
+S014,2025-09-02,English,Present,6
+S014,2025-09-03,Computer Science,Present,6
+S014,2025-09-04,English,Present,0
+S014,2025-09-05,Computer Science,Present,0
+S014,2025-09-08,Mathematics,Present,6
+S014,2025-09-09,Physics,Absent,6
+S014,2025-09-10,Chemistry,Present,6
+S014,2025-09-11,Physics,Present,0
+S014,2025-09-12,Computer Science,Present,0
+S014,2025-09-15,Chemistry,Present,6
+S014,2025-09-16,Computer Science,Present,0
+S014,2025-09-17,English,Present,6
+S014,2025-09-18,English,Present,0
+S014,2025-09-19,English,Present,0
+S014,2025-09-22,Chemistry,Present,6
+S014,2025-09-23,Physics,Present,0
+S014,2025-09-24,English,Present,0
+S014,2025-09-25,Chemistry,Present,0
+S014,2025-09-26,Computer Science,Absent,6
+S014,2025-09-29,English,Present,6
+S014,2025-09-30,Chemistry,Present,0
+S015,2025-09-01,Chemistry,Present,6
+S015,2025-09-02,English,Present,6
+S015,2025-09-03,Computer Science,Present,0
+S015,2025-09-04,English,Present,6
+S015,2025-09-05,Physics,Present,0
+S015,2025-09-08,Computer Science,Absent,0
+S015,2025-09-09,English,Absent,6
+S015,2025-09-10,Physics,Present,0
+S015,2025-09-11,Computer Science,Present,6
+S015,2025-09-12,Chemistry,Present,0
+S015,2025-09-15,English,Present,6
+S015,2025-09-16,Mathematics,Present,6
+S015,2025-09-17,Physics,Present,0
+S015,2025-09-18,Computer Science,Present,6
+S015,2025-09-19,Computer Science,Present,0
+S015,2025-09-22,Mathematics,Present,6
+S015,2025-09-23,Mathematics,Absent,0
+S015,2025-09-24,Mathematics,Present,6
+S015,2025-09-25,English,Present,0
+S015,2025-09-26,Computer Science,Present,0
+S015,2025-09-29,English,Present,0
+S015,2025-09-30,English,Present,6
+S016,2025-09-01,English,Present,6
+S016,2025-09-02,English,Present,6
+S016,2025-09-03,Computer Science,Present,6
+S016,2025-09-04,Mathematics,Present,0
+S016,2025-09-05,English,Present,0
+S016,2025-09-08,Computer Science,Present,0
+S016,2025-09-09,Mathematics,Absent,0
+S016,2025-09-10,Chemistry,Present,0
+S016,2025-09-11,Physics,Present,0
+S016,2025-09-12,Computer Science,Present,0
+S016,2025-09-15,Chemistry,Present,0
+S016,2025-09-16,Computer Science,Present,0
+S016,2025-09-17,English,Present,0
+S016,2025-09-18,Physics,Present,6
+S016,2025-09-19,Computer Science,Present,0
+S016,2025-09-22,Physics,Present,0
+S016,2025-09-23,Mathematics,Present,0
+S016,2025-09-24,English,Present,0
+S016,2025-09-25,English,Present,6
+S016,2025-09-26,English,Present,6
+S016,2025-09-29,Physics,Present,0
+S016,2025-09-30,Mathematics,Absent,0
+S017,2025-09-01,Mathematics,Present,0
+S017,2025-09-02,Mathematics,Present,6
+S017,2025-09-03,English,Present,6
+S017,2025-09-04,Mathematics,Present,0
+S017,2025-09-05,Chemistry,Present,0
+S017,2025-09-08,Computer Science,Present,0
+S017,2025-09-09,Mathematics,Absent,0
+S017,2025-09-10,Computer Science,Present,0
+S017,2025-09-11,Chemistry,Present,0
+S017,2025-09-12,Computer Science,Present,6
+S017,2025-09-15,Computer Science,Present,6
+S017,2025-09-16,Physics,Present,0
+S017,2025-09-17,Physics,Absent,6
+S017,2025-09-18,English,Present,6
+S017,2025-09-19,Mathematics,Absent,0
+S017,2025-09-22,Physics,Absent,0
+S017,2025-09-23,Mathematics,Present,6
+S017,2025-09-24,Chemistry,Present,6
+S017,2025-09-25,Chemistry,Present,0
+S017,2025-09-26,Chemistry,Present,0
+S017,2025-09-29,Physics,Present,6
+S017,2025-09-30,Computer Science,Present,0
+S018,2025-09-01,Computer Science,Present,6
+S018,2025-09-02,Physics,Present,6
+S018,2025-09-03,Mathematics,Absent,0
+S018,2025-09-04,Computer Science,Present,6
+S018,2025-09-05,English,Absent,6
+S018,2025-09-08,Physics,Present,0
+S018,2025-09-09,Chemistry,Present,0
+S018,2025-09-10,Chemistry,Present,6
+S018,2025-09-11,English,Present,0
+S018,2025-09-12,Computer Science,Absent,6
+S018,2025-09-15,Mathematics,Present,0
+S018,2025-09-16,Chemistry,Absent,0
+S018,2025-09-17,English,Present,0
+S018,2025-09-18,English,Present,0
+S018,2025-09-19,Physics,Present,0
+S018,2025-09-22,English,Absent,6
+S018,2025-09-23,Physics,Absent,0
+S018,2025-09-24,Computer Science,Present,0
+S018,2025-09-25,Computer Science,Present,0
+S018,2025-09-26,Chemistry,Present,6
+S018,2025-09-29,English,Present,0
+S018,2025-09-30,Mathematics,Absent,6
+S019,2025-09-01,Computer Science,Absent,0
+S019,2025-09-02,Chemistry,Present,6
+S019,2025-09-03,Computer Science,Present,0
+S019,2025-09-04,Physics,Present,6
+S019,2025-09-05,Computer Science,Present,0
+S019,2025-09-08,Physics,Absent,6
+S019,2025-09-09,Mathematics,Present,0
+S019,2025-09-10,English,Absent,6
+S019,2025-09-11,Computer Science,Present,0
+S019,2025-09-12,Physics,Absent,6
+S019,2025-09-15,Chemistry,Present,0
+S019,2025-09-16,English,Present,6
+S019,2025-09-17,Physics,Absent,6
+S019,2025-09-18,Computer Science,Present,0
+S019,2025-09-19,Computer Science,Present,0
+S019,2025-09-22,Physics,Absent,0
+S019,2025-09-23,English,Absent,0
+S019,2025-09-24,Chemistry,Present,6
+S019,2025-09-25,English,Present,6
+S019,2025-09-26,Physics,Present,6
+S019,2025-09-29,English,Present,0
+S019,2025-09-30,Mathematics,Present,0
+S020,2025-09-01,Mathematics,Present,0
+S020,2025-09-02,Computer Science,Present,6
+S020,2025-09-03,English,Present,0
+S020,2025-09-04,Chemistry,Present,0
+S020,2025-09-05,Chemistry,Present,6
+S020,2025-09-08,Physics,Present,0
+S020,2025-09-09,Mathematics,Present,0
+S020,2025-09-10,Computer Science,Present,6
+S020,2025-09-11,Mathematics,Present,0
+S020,2025-09-12,Chemistry,Absent,0
+S020,2025-09-15,Mathematics,Present,6
+S020,2025-09-16,Mathematics,Present,6
+S020,2025-09-17,Chemistry,Present,0
+S020,2025-09-18,Mathematics,Present,6
+S020,2025-09-19,Physics,Present,6
+S020,2025-09-22,English,Present,0
+S020,2025-09-23,Chemistry,Present,0
+S020,2025-09-24,Computer Science,Present,6
+S020,2025-09-25,English,Present,6
+S020,2025-09-26,English,Absent,0
+S020,2025-09-29,Chemistry,Present,6
+S020,2025-09-30,Chemistry,Present,6
