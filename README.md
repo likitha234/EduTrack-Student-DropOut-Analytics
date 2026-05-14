@@ -80,7 +80,4 @@ The system processes multiple datasets including:
 
 ---
 
-## Screenshots
 
-(Add dashboard screenshots here)
-.
